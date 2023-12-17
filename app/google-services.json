@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "116050395482",
+    "firebase_url": "https://appdbfz-default-rtdb.firebaseio.com",
+    "project_id": "appdbfz",
+    "storage_bucket": "appdbfz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116050395482:android:ab5123ad3d52abda36b363",
+        "android_client_info": {
+          "package_name": "com.example.dbfz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARYdYKpU8XFguMmciLhIflFfoLJrry8aU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

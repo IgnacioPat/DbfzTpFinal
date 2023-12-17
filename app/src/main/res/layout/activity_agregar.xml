@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo4"
+    tools:context=".ActivityAgregar"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Detalles del nuevo personaje"
+    android:textSize="20dp"
+    android:background="@color/naranja"
+    android:gravity="center"
+    android:drawableLeft="@drawable/user"
+    android:textStyle="bold"
+
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/naranja"
+    android:layout_marginTop="50dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="75dp"
+    android:layout_marginRight="75dp"
+    android:gravity="center"
+    android:layout_marginBottom="15dp"
+    android:text="Nombre"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_marginLeft="75dp"
+    android:layout_marginRight="75dp"
+    android:background="@drawable/edit_text_border"
+    android:gravity="center"
+    android:id="@+id/addNombre"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/naranja"
+    android:layout_marginLeft="75dp"
+    android:layout_marginRight="75dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:text="Descripcion"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/edit_text_border"
+    android:gravity="center"
+    android:id="@+id/addDescripcion"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/naranja"
+    android:layout_marginLeft="75dp"
+    android:layout_marginRight="75dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:text="Disponibilidad"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/edit_text_border"
+    android:gravity="center"
+    android:id="@+id/addDispon"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/naranja"
+    android:layout_marginLeft="75dp"
+    android:layout_marginRight="75dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:text="Imagen del personaje"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/edit_text_border"
+    android:gravity="center"
+    android:id="@+id/addImg"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir personaje"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:id="@+id/btnAñadir"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="@color/naranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@drawable/atras"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</LinearLayout>
